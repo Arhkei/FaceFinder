@@ -17,6 +17,15 @@ Put faces to analyze in unknown_faces folder
 
 Uncomment train_faces() function to train on faces and then the program will attempt to recognize faces in unknown_faces folder
 
+## Folder Structure
+
+Face Recognition
+├── known_faces/
+│   └── name
+│     └── images.png
+├── unknown_faces/
+│   └── imaes.png
+└── facefinder.py
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
